@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import UserCreate from "./UserCreate";
 
 class App extends Component {
   state = {
@@ -27,7 +28,7 @@ class App extends Component {
             className="flag nl"
           />
         </div>
-        {this.state.language}
+        <UserCreate />
       </div>
     );
   }
